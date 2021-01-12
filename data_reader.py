@@ -11,7 +11,7 @@ timeformat = "%Y-%m-%d %H:%M:%S"
 MST_to_EST = timedelta(hours = -5)
 url = 'https://www.investing.com/commodities/crude-oil-historical-data'
 headers = {"User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'}
-base = "https://oil-api.herokuapp.com/futures"
+base = "https://oil-trader-api.herokuapp.com/futures"
 
 sched = BlockingScheduler()
 

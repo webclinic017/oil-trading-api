@@ -18,7 +18,7 @@ timeformat = "%Y-%m-%d %H:%M:%S"
 
 For real-time (minute bars) data:
 ```
-base = "https://oil-api.herokuapp.com/futures/realtime"
+base = "https://oil-trader-api.herokuapp.com/futures/realtime"
 response = requests.get(base)
 response = response.json()
 close = response['close']
@@ -29,7 +29,7 @@ print(response)
 For historical data:
 
 ```
-base = "https://oil-api.herokuapp.com/futures/historical"
+base = "https://oil-trader-api.herokuapp.com/futures/historical"
 response = requests.get(base)
 response = response.json()
 close = response['closes']
