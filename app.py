@@ -1,11 +1,39 @@
 #!flask/bin/python
 from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
 
 from databaser import addClose
 from databaser import reader
 from databaser import deleteLast
 from databaser import historicals
 app = Flask(__name__)
+
+ENV = 'prod'
+
+if ENV == 'dev':
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost:1234/postgres'
+
+else:
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://fgbuqcuqjvjptf:22441a869f92567a97c366cbc7204aa3cd58cc7b068e68b65f07c6161b8da03b@ec2-54-159-138-67.compute-1.amazonaws.com:5432/d8th6a2gl59nj0'
+
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+
+class Data(db.Model):
+    __tablename__ = 'data'
+    ticker = db.Column(db.String, primary_key=True)
+    time = db.Column(db.String, unique=True)
+    price = db.Column(db.Float, unique=True)
+    
+    def __init__(self, ticker, time, price):
+        self.ticker = ticker
+        self.time = time
+        self.price = price
+
+    # add line here for ticker!
+
+  
 
 
 @app.route("/futures/realtime", methods=["GET"])
@@ -26,6 +54,13 @@ def post():
         print(close)
         time = request.form['time']
         update =  addClose(time, close)
+
+        ## databasing
+        ticker = 'XOM'
+        data = Data(ticker, time, close)
+        db.session.add(data)
+        db.session.commit()
+
         return jsonify(str(update))
 
 

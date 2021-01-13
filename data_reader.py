@@ -12,34 +12,36 @@ MST_to_EST = timedelta(hours = -5)
 url = 'https://www.investing.com/commodities/crude-oil-historical-data'
 headers = {"User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36'}
 base = "https://oil-trader-api.herokuapp.com/futures"
+#base = 'http://127.0.0.1:5000/futures'
+
+print('base', base)
 
 sched = BlockingScheduler()
 
 @sched.scheduled_job('interval', minutes=1)
 def futures_data_reader():
+  
     try:
-        response = requests.post(base, data={'time':5500, 'close':50.50}, timeout=1.5)
-    # try:
-    #     source = requests.get(url, headers=headers, timeout = 1.5)
-    #     source.encoding = 'utf-8' 
-    #     status = source.status_code
-    #     source = source.text
-    #     soup =  BeautifulSoup(source, 'html.parser')
-    #     divs = soup.find("div", {"id": "quotes_summary_current_data"})
-    #     price = divs.find('span').text
-    #     price = price.strip("'")
-    #     price = float(price)
-    #     now = (datetime.now() + MST_to_EST).strftime(timeformat)
+        source = requests.get(url, headers=headers, timeout = 1.5)
+        source.encoding = 'utf-8' 
+        status = source.status_code
+        source = source.text
+        soup =  BeautifulSoup(source, 'html.parser')
+        divs = soup.find("div", {"id": "quotes_summary_current_data"})
+        price = divs.find('span').text
+        price = price.strip("'")
+        price = float(price)
+        now = (datetime.now() + MST_to_EST).strftime(timeformat)
 
-    #     data_obj = {'time': now, 'close': price}
-    # except Exception as e:
-    #     sys.stdout.write(str(e))
-    #     now = (datetime.now() + MST_to_EST).strftime(timeformat)
-    #     data_obj = {'time': now, 'close': 'NaN'}
+        data_obj = {'time': now, 'close': price}
+    except Exception as e:
+        sys.stdout.write(str(e))
+        now = (datetime.now() + MST_to_EST).strftime(timeformat)
+        data_obj = {'time': now, 'close': 'NaN'}
 
 
-    # try:
-    #     response = requests.post(base, data=data_obj, timeout=1.5)
+    try:
+        response = requests.post(base, data=data_obj, timeout=1.5)
     except Exception as e:
         sys.stdout.write(str(e))
 
