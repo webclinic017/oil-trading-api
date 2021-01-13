@@ -22,7 +22,8 @@ db = SQLAlchemy(app)
 
 class Data(db.Model):
     __tablename__ = 'data'
-    time = db.Column(db.String, primary_key = True)
+    id = db.Column(db.Integer, primary_key=True)
+    time = db.Column(db.String)
     price = db.Column(db.Float)
     
     
@@ -37,8 +38,10 @@ class Data(db.Model):
 
 @app.route("/futures/realtime", methods=["GET"])
 def message():
-    time, close = reader()
-    return {'time': time, 'close': close}
+    records = db.session.query(Data).all()
+    last_record = records[-1]
+    #time, close = reader()
+    return {'time': last_record, 'close': last_record}
 
 @app.route("/futures/historical", methods=["GET"])
 def historical():
