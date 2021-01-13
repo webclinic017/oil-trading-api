@@ -26,12 +26,12 @@ class Data(db.Model):
     time = db.Column(db.String)
     close = db.Column(db.Float)
     
-    
     def __init__(self,time, close):
         self.time = time
         self.close = close
 
     # add line here for ticker!
+
 
   
 
@@ -42,7 +42,7 @@ def message():
         record = db.session.query(Data).order_by(Data.id.desc()).first()
         record = record.__dict__
         print(record)
-        return {'time': record.time, 'close': record.close}
+        return {'time': record['time'], 'close': record['close']}
     except Exception as e:
         print(str(e))
         return {'time': 'none', 'close': 'none'}
@@ -51,8 +51,15 @@ def message():
 
 @app.route("/futures/historical", methods=["GET"])
 def historical():
-    times, closes = historicals()
+    records = db.session.query(Data).all()
+    times, closes = [], []
+    for data in records:
+        data = data.__dict__
+        times.append(data['time'])
+        closes.append(data['close'])
+
     return {'times': list(times), 'closes': list(closes)}
+    #return {'times': str(times), 'closes': str(closes)}
 
 @app.route("/futures", methods=["POST"])
 def post():
