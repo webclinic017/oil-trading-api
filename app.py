@@ -38,10 +38,10 @@ class Data(db.Model):
 
 @app.route("/futures/realtime", methods=["GET"])
 def message():
-    records = db.session.query(Data).all()
-    last_record = records[-1]
+    record = db.session.query(Data).order_by(Data.id.desc()).first()
+
     #time, close = reader()
-    return {'time': last_record, 'close': last_record}
+    return {'time': str(record), 'close': str(record)}
 
 @app.route("/futures/historical", methods=["GET"])
 def historical():
@@ -55,7 +55,7 @@ def post():
         close = request.form['close']
         print(close)
         time = request.form['time']
-        update =  addClose(time, close)
+        #update =  addClose(time, close)
 
         ## databasing
         print(time, close)
@@ -64,7 +64,7 @@ def post():
         db.session.add(data)
         db.session.commit()
 
-        return jsonify(str(update))
+        return jsonify(str('yes'))
 
 
 @app.route("/futures", methods=["DELETE"])
