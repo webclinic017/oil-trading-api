@@ -22,7 +22,7 @@ db = SQLAlchemy(app)
 
 class Data(db.Model):
     __tablename__ = 'data'
-    ticker = db.Column(db.String, primary_key=True)
+    ticker = db.Column(db.String, primary_key=True, unique=True)
     time = db.Column(db.String, unique=True)
     price = db.Column(db.Float, unique=True)
     
