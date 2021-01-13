@@ -23,7 +23,8 @@ db = SQLAlchemy(app)
 class Data(db.Model):
     __tablename__ = 'data'
     time = db.Column(db.String, primary_key = True)
-    price = db.Column(db.Float, unique=True)
+    price = db.Column(db.Float)
+    
     
     def __init__(self,time, price):
         self.time = time
@@ -54,6 +55,7 @@ def post():
         update =  addClose(time, close)
 
         ## databasing
+        print(time, close)
 
         data = Data(time, close)
         db.session.add(data)
