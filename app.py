@@ -22,12 +22,10 @@ db = SQLAlchemy(app)
 
 class Data(db.Model):
     __tablename__ = 'data'
-    ticker = db.Column(db.String, primary_key=True, unique=True)
-    time = db.Column(db.String, unique=True)
+    time = db.Column(db.String, primary_key = True)
     price = db.Column(db.Float, unique=True)
     
-    def __init__(self, ticker, time, price):
-        self.ticker = ticker
+    def __init__(self,time, price):
         self.time = time
         self.price = price
 
@@ -56,8 +54,8 @@ def post():
         update =  addClose(time, close)
 
         ## databasing
-        ticker = 'XOM'
-        data = Data(ticker, time, close)
+
+        data = Data(time, close)
         db.session.add(data)
         db.session.commit()
 
