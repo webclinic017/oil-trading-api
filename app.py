@@ -24,12 +24,12 @@ class Data(db.Model):
     __tablename__ = 'data'
     id = db.Column(db.Integer, primary_key=True)
     time = db.Column(db.String)
-    price = db.Column(db.Float)
+    close = db.Column(db.Float)
     
     
-    def __init__(self,time, price):
+    def __init__(self,time, close):
         self.time = time
-        self.price = price
+        self.close = close
 
     # add line here for ticker!
 
@@ -38,10 +38,15 @@ class Data(db.Model):
 
 @app.route("/futures/realtime", methods=["GET"])
 def message():
-    record = db.session.query(Data).order_by(Data.id.desc()).first()
-
+    try:
+        record = db.session.query(Data).order_by(Data.id.desc()).first()
+        record = record.__dict__
+        return {'time': record.time, 'close': record.close}
+    except Exception as e:
+        print(str(e))
+        return {'time': 'none', 'close': 'none'}
     #time, close = reader()
-    return {'time': str(record), 'close': str(record)}
+    
 
 @app.route("/futures/historical", methods=["GET"])
 def historical():
@@ -64,7 +69,7 @@ def post():
         db.session.add(data)
         db.session.commit()
 
-        return jsonify(str('yes'))
+        return jsonify({'time':time, 'close':close})
 
 
 @app.route("/futures", methods=["DELETE"])
