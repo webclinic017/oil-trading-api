@@ -41,6 +41,7 @@ def message():
     try:
         record = db.session.query(Data).order_by(Data.id.desc()).first()
         record = record.__dict__
+        print(record)
         return {'time': record.time, 'close': record.close}
     except Exception as e:
         print(str(e))
