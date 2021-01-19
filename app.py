@@ -16,6 +16,7 @@ if ENV == 'dev':
 else:
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://fgbuqcuqjvjptf:22441a869f92567a97c366cbc7204aa3cd58cc7b068e68b65f07c6161b8da03b@ec2-54-159-138-67.compute-1.amazonaws.com:5432/d8th6a2gl59nj0'
 
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
@@ -49,6 +50,7 @@ def message():
     #time, close = reader()
     
 
+
 @app.route("/futures/historical", methods=["GET"])
 def historical():
     records = db.session.query(Data).all()
@@ -60,6 +62,8 @@ def historical():
 
     return {'times': list(times), 'closes': list(closes)}
     #return {'times': str(times), 'closes': str(closes)}
+
+
 
 @app.route("/futures", methods=["POST"])
 def post():
@@ -80,11 +84,14 @@ def post():
         return jsonify({'time':time, 'close':close})
 
 
+
 @app.route("/futures", methods=["DELETE"])
 def delete():
     if request.method=='DELETE':
         delete_message =  deleteLast()
         return jsonify(str(delete_message))
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

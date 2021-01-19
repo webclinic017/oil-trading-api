@@ -2,11 +2,11 @@
 import requests
 import os
 import json 
+import pandas as pd
 
-
-#base = "https://oil-trader-api.herokuapp.com/futures/realtime"
-base = 'http://127.0.0.1:5000/futures/historical'
-obj = {'time': '2019-02-01 19:55', 'close': 555.00}
+base = "https://oil-trader-api.herokuapp.com/futures/historical"
+#base = 'http://127.0.0.1:5000/futures/historical'
+#obj = {'time': '2019-02-01 19:55', 'close': 555.00}
 #response = requests.post(base, data=obj)
 # print(response.text)
 response = requests.get(base)
@@ -14,6 +14,6 @@ response = requests.get(base)
 data = response.json()
 print(data)
 closes = data['closes']
-print(closes)
-for close in closes:
-    print(close)
+times = data['times']
+df = pd.DataFrame.from_dict(data)
+df.to_csv('/Users/noahalex/Documents/Professional/HamiltonMiller/oil_data/data.csv')
