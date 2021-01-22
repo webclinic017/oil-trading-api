@@ -16,4 +16,5 @@ print(data)
 closes = data['closes']
 times = data['times']
 df = pd.DataFrame.from_dict(data)
-df.to_csv('/Users/noahalex/Documents/Professional/HamiltonMiller/oil_data/data.csv')
+df.to_csv('/Users/noahalex/Desktop/data1.csv')
+
