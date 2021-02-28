@@ -41,13 +41,13 @@ base = "https://oil-trader-api.herokuapp.com"
 
 try:
     base = base + '/parameters'
-    # response = requests.get(base)
-    # response = response.json()
-    # print(response)
-    # ticker = response['ticker']
-    # move_trigger = response['move_trigger']
-    # trade_period = response['trade_period']
-    # hour_offset = response['hour_offset']
+    response = requests.get(base)
+    response = response.json()
+    print(response)
+    ticker = response['ticker']
+    move_trigger = response['move_trigger']
+    trade_period = response['trade_period']
+    hour_offset = response['hour_offset']
 
 except Exception as e:
     base = base + '/parameters'
