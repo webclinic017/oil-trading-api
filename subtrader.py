@@ -41,16 +41,19 @@ base = "https://oil-trader-api.herokuapp.com"
 
 try:
     base = base + '/parameters'
-    response = requests.get(base)
-    response = response.json()
-    print(response)
-    ticker = response['ticker']
-    move_trigger = response['move_trigger']
-    trade_period = response['trade_period']
-    hour_offset = response['hour_offset']
+    # response = requests.get(base)
+    # response = response.json()
+    # print(response)
+    # ticker = response['ticker']
+    # move_trigger = response['move_trigger']
+    # trade_period = response['trade_period']
+    # hour_offset = response['hour_offset']
 
 except Exception as e:
-    raise Exception('No "parameters" file')
+    base = base + '/parameters'
+    response = requests.get(base)
+    response = response.json()
+    raise Exception('No "parameters" file', response)
 print(ticker, move_trigger, trade_period, hour_offset)
 
 ## Set stockObj for data
