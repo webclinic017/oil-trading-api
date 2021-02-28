@@ -43,6 +43,7 @@ try:
     base = base + '/parameters'
     response = requests.get(base)
     response = response.json()
+    print(response)
     ticker = response['ticker']
     move_trigger = response['move_trigger']
     trade_period = response['trade_period']
