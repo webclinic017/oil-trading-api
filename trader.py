@@ -13,8 +13,8 @@ global dir_path
 dir_path = os.path.dirname(__file__)
 logging.basicConfig(filename= '{}/trader.log'.format(dir_path), level=logging.DEBUG)
 logger = logging.getLogger('trader')
-
-
+from apscheduler.schedulers.blocking import BlockingScheduler
+sched = BlockingScheduler()
 # total_stop_loss = -.03 # 4%
 # partial_stop_loss = -.01 #1%
 # gain_stop = .015 #2%
@@ -126,7 +126,7 @@ def pipes_test():
             
 
 
-
+@sched.scheduled_job('interval', day=10)
 def main():
 
     if len(sys.argv) == 2:
@@ -136,3 +136,4 @@ def main():
         from trade_finder import signal_sender
         pipes()
 
+sched.start()
