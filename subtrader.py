@@ -42,8 +42,10 @@ base = "https://oil-trader-api.herokuapp.com"
 try:
     base = base + '/parameters'
     response = requests.get(base)
+    print(response)
     response = response.json()
     print(response)
+    
     ticker = response['ticker']
     move_trigger = response['move_trigger']
     trade_period = response['trade_period']
