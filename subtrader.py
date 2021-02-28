@@ -37,7 +37,8 @@ global ticker
 global move_trigger
 global trade_period
 global hour_offset
-base = 'http://0.0.0.0:5000'
+base = "https://oil-trader-api.herokuapp.com"
+
 try:
     base = base + '/parameters'
     response = requests.get(base)
@@ -316,9 +317,9 @@ def short(tradeID, pct_change):
 
 def writetodatafile(line):
     # line is a list input
-
+    base = "https://oil-trader-api.herokuapp.com"
     base = base + "/trades"
-    obj = {'trade_id': line['tradeID'], 'ticker':line['ticker'], 'trade_type': line['tradeType'], 'pct_change': line['pct_change'], 'entered_price': line['entered_price'], 'entered_time': line['entered_time'], 'current_close': line['current_close'] 'current_time': line['current_time'], 'trade_gain_or_loss': line['trade_gain_or_loss'], 'close_reason': line['close_reason']}
+    obj = {'trade_id': line['tradeID'], 'ticker':line['ticker'], 'trade_type': line['tradeType'], 'pct_change': line['pct_change'], 'entered_price': line['entered_price'], 'entered_time': line['entered_time'], 'current_close': line['current_close'], 'current_time': line['current_time'], 'trade_gain_or_loss': line['trade_gain_or_loss'], 'close_reason': line['close_reason']}
     response = requests.post(base, data=obj)
     print(response.text)
 
