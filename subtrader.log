@@ -1,0 +1,1153 @@
+INFO:trader:next tradeID: 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oil-trader-api.herokuapp.com:443
+DEBUG:urllib3.connectionpool:https://oil-trader-api.herokuapp.com:443 "GET /futures/realtime HTTP/1.1" 200 45
+INFO:trade_finder:17:10:40.299490
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:11:40.301580
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:12:40.306530
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:13:40.310188
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:14:40.316183
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:15:40.320746
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:16:40.323727
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:17:40.328938
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:18:40.334666
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:19:40.339068
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:20:40.342006
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:21:40.353791
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:22:40.362935
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:23:40.370604
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:24:40.378471
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:25:40.381595
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:26:40.388774
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:27:40.400457
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:28:40.387562
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:29:40.393771
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:30:40.402006
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:31:40.411675
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:32:40.422191
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:33:40.430106
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:34:40.439374
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:35:40.446318
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:36:40.453948
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:37:40.464159
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:38:40.469991
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:39:40.478326
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:40:40.487699
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:41:40.499854
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:42:40.510692
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:43:40.519487
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:44:40.526644
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:45:40.535948
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:46:40.545919
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:47:40.554303
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:48:40.561914
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:49:40.569255
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:50:40.580009
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:51:40.591282
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:52:40.600725
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:53:40.612897
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:54:40.623474
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:55:40.632941
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:56:40.640549
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:57:40.647139
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:58:40.627004
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:17:59:40.630045
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:00:40.642521
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:01:40.654502
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:02:40.665888
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:03:40.676561
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:04:40.685040
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:05:40.694495
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:06:40.706396
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:07:40.709983
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:08:40.717232
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:09:40.723941
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:10:40.731187
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:11:40.741173
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:12:40.747416
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:13:40.744245
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:14:40.749909
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:15:40.756006
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:16:40.761349
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:17:40.771571
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:18:40.782013
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:19:40.794329
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:20:40.806215
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:21:40.815132
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:22:40.826056
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:23:40.838494
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:24:40.851505
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:25:40.864337
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:26:40.875126
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:27:40.883330
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:28:40.821604
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:29:40.824575
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:30:40.835041
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:31:40.844326
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:32:40.848693
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:33:40.857962
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:34:40.863332
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:35:40.872684
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:36:40.880096
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:37:40.887042
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:38:40.897366
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:39:40.906348
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:40:40.916409
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:41:40.925564
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:42:40.935142
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:43:41.047727
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:44:41.058925
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:45:41.069436
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:46:41.080669
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:47:41.089837
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:48:41.092757
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:49:41.104549
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:50:41.114793
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:51:41.123534
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:52:41.134394
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:53:41.137968
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:54:41.151021
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:55:41.163960
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:56:41.176934
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:57:41.180243
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:58:41.193746
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:18:59:41.206073
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:00:41.215427
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:01:41.223785
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:02:41.228528
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:03:41.240349
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:04:41.246409
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:05:41.255193
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:06:41.261860
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:07:41.267644
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:08:41.272157
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:09:41.281086
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:10:41.290663
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:11:41.299343
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:12:41.307124
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:13:41.310024
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:14:41.317370
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:15:41.327330
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:16:41.338355
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:17:41.347259
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:18:41.357619
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:19:41.364111
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:20:41.371806
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:21:41.382015
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:22:41.386339
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:23:41.393865
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:24:41.400969
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:25:41.411629
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:26:41.423679
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:27:41.436717
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:28:41.423112
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:29:41.427400
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:30:41.436067
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:31:41.445205
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:32:41.456862
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:33:41.468831
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:34:41.472808
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:35:41.485178
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:36:41.495397
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:37:41.505715
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:38:41.516978
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:39:41.520935
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:40:41.529808
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:41:41.538029
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:42:41.545982
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:43:41.543953
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:44:41.538555
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:45:41.550015
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:46:41.554183
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:47:41.562124
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:48:41.565956
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:49:41.576555
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:50:41.587446
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:51:41.595337
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:52:41.605058
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:53:41.614448
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:54:41.626035
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:55:41.639260
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:56:41.642740
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:57:41.650143
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:58:41.656206
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:19:59:41.640869
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:00:41.638789
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:01:41.643564
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:02:41.645692
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:03:41.653037
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:04:41.660998
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:05:41.670694
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:06:41.680573
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:07:41.691981
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:08:41.699711
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:09:41.703025
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:10:41.713356
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:11:41.725237
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:12:41.733526
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:13:41.744417
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:14:41.753232
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:15:41.761974
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:16:41.767373
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:17:41.775550
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:18:41.778290
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:19:41.780664
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:20:41.790944
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:21:41.801100
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:22:41.806194
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:23:41.817948
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:24:41.824205
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:25:41.827143
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:26:41.834849
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:27:41.842164
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:28:41.853056
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:29:41.857514
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:30:41.863832
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:31:41.869463
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:32:41.876808
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:33:41.884342
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:34:41.893960
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:35:41.899007
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:36:41.909553
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:37:41.912552
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:38:41.924964
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:39:41.935670
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:40:41.946035
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:41:41.956790
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:42:41.961327
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:43:41.969304
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:44:41.976551
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:45:41.986623
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:46:41.980357
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:47:41.987633
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:48:41.992721
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:49:42.001145
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:50:42.012276
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:51:42.017638
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:52:42.021184
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:53:42.033045
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:54:42.040686
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:55:42.048174
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:56:42.054923
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:57:42.063247
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:58:42.074148
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:20:59:42.081671
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:00:42.094084
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:01:42.097535
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:02:42.108277
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:03:42.114904
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:04:42.120792
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:05:42.131718
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:06:42.134867
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:07:42.138006
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:08:42.143156
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:09:42.149169
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:10:42.150947
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:11:42.153466
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:12:42.156272
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:13:42.160456
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:14:42.170228
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:15:42.180671
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:16:42.171905
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:17:42.178614
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:18:42.190705
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:19:42.200507
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:20:42.212411
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:21:42.223936
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:22:42.233563
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:23:42.244087
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:24:42.248374
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:25:42.260433
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:26:42.270055
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:27:42.273488
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:28:42.280367
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:29:42.285279
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:30:42.294932
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:31:42.287412
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:32:42.291345
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:33:42.293836
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:34:42.298053
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:35:42.300925
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:36:42.302382
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:37:42.311894
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:38:42.316827
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:39:42.318088
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:40:42.328275
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:41:42.333443
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:42:42.338533
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:43:42.344323
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:44:42.351586
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:45:42.358683
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:46:42.302946
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:47:42.308161
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:48:42.316242
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:49:42.322795
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:50:42.328484
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:51:42.338927
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:52:42.347700
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:53:42.356717
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:54:42.367408
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:55:42.373538
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:56:42.384937
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:57:42.393603
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:58:42.400532
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:21:59:42.408528
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:00:42.412911
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:01:42.365103
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:02:42.375130
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:03:42.382372
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:04:42.392699
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:05:42.398766
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:06:42.406600
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:07:42.414718
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:08:42.420220
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:09:42.424631
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:10:42.430267
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:11:42.431947
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:12:42.434225
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:13:42.440434
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:14:42.445357
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:15:42.453607
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:16:42.423515
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:17:42.428538
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:18:42.433255
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:19:42.437705
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:20:42.445307
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:21:42.449553
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:22:42.457081
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:23:42.467207
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:24:42.476099
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:25:42.482494
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:26:42.492564
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:27:42.495362
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:28:42.503371
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:29:42.510302
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:30:42.517380
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:31:42.792616
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:32:42.804044
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:33:42.815247
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:34:42.822294
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:35:42.829936
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:36:42.840658
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:37:42.852724
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:38:42.862813
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:39:42.874285
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:40:42.883858
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:41:42.894680
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:42:42.904320
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:43:42.912847
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:44:42.921707
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:45:42.929356
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:46:42.916172
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:47:42.917089
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:48:42.920036
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:49:42.922648
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:50:42.926475
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:51:42.935163
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:52:42.942138
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:53:42.951649
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:54:42.963489
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:55:42.969776
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:56:42.978721
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:57:42.988065
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:58:42.999686
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:22:59:43.007306
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:00:43.016951
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:01:43.024487
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:02:43.032126
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:03:43.039838
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:04:43.050397
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:05:43.057547
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:06:43.067007
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:07:43.079030
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:18:21.604759
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:19:22.504643
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trader:next tradeID: 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oil-trader-api.herokuapp.com:443
+DEBUG:urllib3.connectionpool:https://oil-trader-api.herokuapp.com:443 "GET /futures/realtime HTTP/1.1" 200 45
+INFO:trade_finder:23:20:32.667177
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:21:32.671159
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:22:32.677443
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:23:32.683227
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:24:32.689250
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:25:32.691520
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:26:32.696958
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:27:32.704617
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trader:next tradeID: 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oil-trader-api.herokuapp.com:443
+DEBUG:urllib3.connectionpool:https://oil-trader-api.herokuapp.com:443 "GET /futures/realtime HTTP/1.1" 200 43
+INFO:trade_finder:23:31:09.917756
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:32:09.921063
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+ERROR:trader:invalid literal for int() with base 10: '\n'
+INFO:trader:next tradeID: 1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oil-trader-api.herokuapp.com:443
+DEBUG:urllib3.connectionpool:https://oil-trader-api.herokuapp.com:443 "GET /futures/realtime HTTP/1.1" 200 45
+INFO:trade_finder:23:39:20.991558
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:40:20.996411
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:41:20.999173
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:42:21.003323
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:43:21.006858
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:44:21.011698
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:45:21.017155
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:46:21.023799
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:47:21.030214
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
+INFO:trade_finder:23:48:21.034899
+INFO:trade_finder:None
+INFO:trade_finder:Not time.
