@@ -77,7 +77,7 @@ def params_get():
     trade_period = data['trade_period']
     hour_offset = data['hour_offset']
  
-    return {'ticker': ticker, 'move_trigger': move_trigger, 'trade_period': trade_period, 'hour_offset': hour_offset}
+    return {'ticker': list(ticker), 'move_trigger': list(move_trigger), 'trade_period': list(trade_period), 'hour_offset': list(hour_offset)}
 
 
 @app.route("/parameters", methods=["POST"])
@@ -114,7 +114,7 @@ def trades_get():
         trade_gain_or_loss.append(data['trade_gain_or_loss'])
         close_reason.append(data['close_reason'])
 
-    return {'trade_id':trade_id, 'ticker': list(ticker), 'trade_type': list(trade_type), 'pct_change': list(pct_change), 'entered_price': list(entered_price), 'current_close':list(current_close), 'current_time': list(current_time), 'trade_gain_or_loss': list(trade_gain_or_loss), 'close_reason': list(close_reason)}
+    return {'trade_id':list(trade_id), 'ticker': list(ticker), 'trade_type': list(trade_type), 'pct_change': list(pct_change), 'entered_price': list(entered_price), 'current_close':list(current_close), 'current_time': list(current_time), 'trade_gain_or_loss': list(trade_gain_or_loss), 'close_reason': list(close_reason)}
 
 
 @app.route("/trades", methods=["POST"])
