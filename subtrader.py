@@ -316,13 +316,11 @@ def short(tradeID, pct_change):
 
 def writetodatafile(line):
     # line is a list input
-    datafile = dir_path + '/data'
 
-    line = [str(item) for item in line]
-    line = ','.join(line)
-    line = line + '\n'
-    with open(datafile, 'a') as file:
-        file.writelines(line)
+    base = base + "/trades"
+    obj = {'trade_id': line['tradeID'], 'ticker':line['ticker'], 'trade_type': line['tradeType'], 'pct_change': line['pct_change'], 'entered_price': line['entered_price'], 'entered_time': line['entered_time'], 'current_close': line['current_close'] 'current_time': line['current_time'], 'trade_gain_or_loss': line['trade_gain_or_loss'], 'close_reason': line['close_reason']}
+    response = requests.post(base, data=obj)
+    print(response.text)
 
 def timecheck(quote):
     current_close = quote['iexRealtimePrice']

@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__)
 
-ENV = 'dev'
+ENV = 'prod'
 
 if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost' #postgres:postgres@localhost:5432/postgres'
