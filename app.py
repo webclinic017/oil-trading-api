@@ -19,9 +19,10 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 from models import *
-
-db.create_all()
-
+try:
+    db.create_all()
+except:
+    print('Tables exist already.')
 
 @app.route("/futures/realtime", methods=["GET"])
 def message():
