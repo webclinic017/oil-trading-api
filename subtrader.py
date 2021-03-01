@@ -37,10 +37,10 @@ global ticker
 global move_trigger
 global trade_period
 global hour_offset
-base = "https://oil-trader-api.herokuapp.com"
+base1 = "https://oil-trader-api.herokuapp.com"
 
 try:
-    base = base + '/parameters'
+    base = base1 + '/parameters'
     response = requests.get(base)
     print(response)
     response = response.text
@@ -52,7 +52,7 @@ try:
     hour_offset = response['hour_offset']
 
 except Exception as e:
-    base = base + '/parameters'
+    base = base1 + '/parameters'
     response = requests.get(base)
     response = response.text
     raise Exception('No "parameters" file', response)
