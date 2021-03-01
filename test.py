@@ -1,7 +1,7 @@
 
 import requests
 import pandas as pd
-base = 'http://0.0.0.0:5000'
+base = "https://oil-trader-api.herokuapp.com" #'http://0.0.0.0:5000'
 
 def read_historical_data(base):
     base = base + '/futures/historical'
@@ -42,5 +42,5 @@ def post_trades(base):
 
 # read_historical_data(base)
 #post_data(base)
-#post_params(base)
-get_params(base)
+post_params(base)
+#get_params(base)

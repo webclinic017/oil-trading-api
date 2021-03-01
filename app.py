@@ -71,7 +71,6 @@ def post():
 def params_get():
     record = AlgoParameters.query.all()
     print(record)
-    
     #data = record.__dict__
     for data in record:
         print(data)
