@@ -20,7 +20,7 @@ def post_data(base):
 
 def post_params(base):
     base = base + "/parameters"
-    obj = {'ticker': 'BP', 'move_trigger': .001, 'trade_period': 'day', 'hour_offset': 5}
+    obj = {'ticker': 'XOM', 'move_trigger': .01, 'trade_period': 'swing', 'hour_offset': 3}
     response = requests.post(base, data=obj)
     print(response.text)
 

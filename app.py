@@ -70,17 +70,16 @@ def post():
 @app.route("/parameters", methods=["GET"])
 def params_get():
     record = AlgoParameters.query.all()
-    print(record)
-    #data = record.__dict__
-    for data in record:
-        print(data)
-    # ticker = data['ticker']
-    # move_trigger = data['move_trigger']
-    # trade_period = data['trade_period']
-    # hour_offset = data['hour_offset']
+    print(record[0])
+    data = vars(record[0])
+    print(data)
+    ticker = data['ticker']
+    move_trigger = data['move_trigger']
+    trade_period = data['trade_period']
+    hour_offset = data['hour_offset']
  
-    #return {'ticker': list(ticker), 'move_trigger': list(move_trigger), 'trade_period': list(trade_period), 'hour_offset': list(hour_offset)}
-    return {'ticker': 'xom', 'move_trigger': .01, 'trade_period': 'day', 'hour_offset': 4}
+    return {'ticker': list(ticker), 'move_trigger': list(move_trigger), 'trade_period': list(trade_period), 'hour_offset': list(hour_offset)}
+    #return {'ticker': 'xom', 'move_trigger': .01, 'trade_period': 'day', 'hour_offset': 4}
 
 @app.route("/parameters", methods=["POST"])
 def params_post():

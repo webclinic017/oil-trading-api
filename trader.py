@@ -126,7 +126,7 @@ def pipes_test():
             
 
 
-@sched.scheduled_job('interval', day=10)
+@sched.scheduled_job('interval', minutes=10000)
 def main():
 
     if len(sys.argv) == 2:
