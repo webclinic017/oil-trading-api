@@ -42,8 +42,9 @@ base1 = "https://oil-trader-api.herokuapp.com"
 try:
     base = base1 + '/parameters'
     response = requests.get(base)
-    print(response)
+
     response = response.json()
+    print('here44')
     print(response)
     
     ticker = response['ticker']
