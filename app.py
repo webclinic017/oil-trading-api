@@ -70,7 +70,7 @@ def post():
 @app.route("/parameters", methods=["GET"])
 def params_get():
     record = AlgoParameters.query.all()
-    data = vars(record[-1])
+    data = record[-1].__dict__
     ticker = data['ticker']
     move_trigger = data['move_trigger']
     trade_period = data['trade_period']
