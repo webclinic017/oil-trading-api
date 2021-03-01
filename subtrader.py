@@ -54,7 +54,7 @@ try:
 except Exception as e:
     base = base + '/parameters'
     response = requests.get(base)
-    response = response.json()
+    response = response.text
     raise Exception('No "parameters" file', response)
 print(ticker, move_trigger, trade_period, hour_offset)
 
