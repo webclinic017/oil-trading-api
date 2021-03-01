@@ -43,7 +43,7 @@ try:
     base = base + '/parameters'
     response = requests.get(base)
     print(response)
-    response = response.json()
+    response = response.text
     print(response)
     
     ticker = response['ticker']

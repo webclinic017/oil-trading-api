@@ -71,7 +71,6 @@ def post():
 def params_get():
     record = AlgoParameters.query.all()
     data = vars(record[-1])
-
     ticker = data['ticker']
     move_trigger = data['move_trigger']
     trade_period = data['trade_period']
