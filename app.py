@@ -2,7 +2,6 @@
 from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 import json
-import trader
 
 
 app = Flask(__name__)
@@ -28,7 +27,6 @@ except:
     print('Tables exist already.')
 
 
-trader.main()
 
 @app.route("/futures/realtime", methods=["GET"])
 def message():
