@@ -2,6 +2,8 @@
 from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 import json
+import trader
+
 
 app = Flask(__name__)
 
@@ -25,6 +27,8 @@ try:
 except:
     print('Tables exist already.')
 
+
+trader.main()
 
 @app.route("/futures/realtime", methods=["GET"])
 def message():
@@ -70,17 +74,15 @@ def post():
 @app.route("/parameters", methods=["GET"])
 def params_get():
     record = AlgoParameters.query.all()
-    print('here1')
-    print(record[0])
+
     data = vars(record[0])
-    print('here2')
-    print(data)
+
     ticker = data['ticker']
     move_trigger = data['move_trigger']
     trade_period = data['trade_period']
     hour_offset = data['hour_offset']
     return {'ticker': ticker, 'move_trigger': move_trigger, 'trade_period': trade_period, 'hour_offset': hour_offset}
-    #return {'ticker': 'xom', 'move_trigger': .01, 'trade_period': 'day', 'hour_offset': 4}
+
 
 @app.route("/parameters", methods=["POST"])
 def params_post():
